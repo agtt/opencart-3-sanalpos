@@ -1,0 +1,18 @@
+OpenCart 3.x Sanal Pos Entegrasyonu Ücretsiz - Karesoft
+
+Entegrasyon tamamen daha öncesinde paylaþýlan ve geliþtirilmesi durdurulan 2.x versiyonundan yola çýkýlarak 3.x versiyonuna göre güncelleþtirildi. ( Sabit Bey'in paylaþtýðý modül )
+
+Sonraki güncelleþtirmelerde yeni yazdýðýmýz Kuveyt Turk 3D Model posunu dahil edeceðiz.
+
+Upload klasörü içindekileri ftp klasörüne atýp ilgili kurulumlarý yönetim panelinden yapabilirsiniz.
+
+Ödeme testi opencart ödeme sayfasýnda yapýlmýþtýr.
+
+Ödeme metodunu eklentiler->eklentiler->Ödeme metodlarýndan
+
+Sipariþ toplamýný eklentiler -> eklentiler-> Sipariþ toplamlarý altýndan aktifleþtirebilirsiniz.
+
+Þu an modül oldukça yeni dolayýsýyla çýkabilecek hatalarý bizim tarafa hýzlýca bildirebilirseniz bu konularda sizlere destek olacaðýz.
+
+agit@karesoft.com.tr
+www.karesoft.com.tr
