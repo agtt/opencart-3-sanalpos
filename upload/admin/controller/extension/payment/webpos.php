@@ -3,7 +3,6 @@ class ControllerExtensionPaymentWebPos extends Controller {
 	private $error = array();
 
 	public function index() {
-		$temp = new Template("template");
 	
 		$this->load->language('extension/payment/webpos');
 
@@ -238,7 +237,6 @@ class ControllerExtensionPaymentWebPos extends Controller {
 		$data['column_left'] = $this->load->controller('common/column_left');
 		$data['footer'] = $this->load->controller('common/footer');
 
-		//$temp->render("extension/payment/webpos");
 		$this->response->setOutput($this->load->view('extension/payment/webpos', $data));
 	}
 
