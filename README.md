@@ -15,3 +15,15 @@ CREATE TABLE IF NOT EXISTS `oc_webposbank` (
 PRIMARY KEY (`bank_id`)
 ) ENGINE=MyISAM DEFAULT COLLATE=utf8_general_ci;
 ```
+
+# Entegre Bankalar : 
+Garanti  
+YapıKredi  
+EST(FinansBank,HalkBank,İş Bank,AkBank)  
+KuveytTurk  
+Payu 
+İ-Para  
+# Information
+Author : Agit ISIK  
+E-mail : agit@karesoft.com.tr  
+Web    : www.karesoft.com.tr  
