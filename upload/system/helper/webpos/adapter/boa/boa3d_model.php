@@ -1,14 +1,12 @@
 <?php
 class boa3dModel {
-	// private $CustomerId  = "400235";
-	// private $MerchantId ="496"; 
-	// private $UserName="apiuser1";
-	// private $Password="Api123";
-	private $merchantOrderId="929797979";
-	private $CustomerId  = "94866302";
-	private $MerchantId ="3027"; 
-	private $UserName="ucuzapi";
-	private $Password="4p1123";
+
+	private $merchantOrderId="";
+	private $CustomerId  = "";
+	private $MerchantId =""; 
+	private $UserName="";
+	private $Password="";
+	
 	
 	private $testUrl="https://boatest.kuveytturk.com.tr/boa.virtualpos.services/Home/ThreeDModelPayGate";
 	private $testUrl2="https://boatest.kuveytturk.com.tr/boa.virtualpos.services/Home/ThreeDModelProvisionGate";
@@ -16,8 +14,8 @@ class boa3dModel {
 	private $liveUrl="https://boa.kuveytturk.com.tr/sanalposservice/Home/ThreeDModelPayGate";
 	private $liveUrl2="https://boa.kuveytturk.com.tr/sanalposservice/Home/ThreeDModelProvisionGate";
 	
-	private $tamamurl="https://www.ucuzluksepeti.com.tr/index.php?route=payment/webpos/callback";
-	private $iptalurl ="https://www.ucuzluksepeti.com.tr/index.php?route=payment/webpos/callback";
+	private $tamamurl="/index.php?route=payment/webpos/callback";
+	private $iptalurl ="/index.php?route=payment/webpos/callback";
 	// private $cardnumber="4025903160410013";
 	// private $cvv="123";
 	// private $month="07";
@@ -106,12 +104,12 @@ class boa3dModel {
         $CurrencyCode = "0949"; //TL islemleri için
         $MerchantOrderId = (string)$bank_response->VPosMessage->MerchantOrderId;// Siparis Numarasi
 		$Amount = (string)$bank_response->VPosMessage->Amount; //Islem Tutari // örnegin 1.00TL için 100 kati yani 100 yazilmali
-        $CustomerId = "94866302";//Müsteri Numarasi
-        $MerchantId = "3027"; //Magaza Kodu
+        $CustomerId = "";//Müsteri Numarasi
+        $MerchantId = ""; //Magaza Kodu
         $OkUrl = $this->tamamurl; //Basarili sonuç alinirsa, yönledirelecek sayfa
         $FailUrl =$this->iptalurl;//Basarisiz sonuç alinirsa, yönledirelecek sayfa
-        $UserName="ucuzapi"; // Web Yönetim ekranalrindan olusturulan api rollü kullanici
-		$Password="4p1123";// Web Yönetim ekranalrindan olusturulan api rollü kullanici sifresi
+        $UserName=""; // Web Yönetim ekranalrindan olusturulan api rollü kullanici
+		$Password="";// Web Yönetim ekranalrindan olusturulan api rollü kullanici sifresi
 		$HashedPassword = base64_encode(sha1($Password,"ISO-8859-9")); //md5($Password);	
 	    $HashData = base64_encode(sha1($MerchantId.$MerchantOrderId.$Amount.$UserName.$HashedPassword , "ISO-8859-9"));
 			if ((string)$bank_response->ResponseCode =="00"){
