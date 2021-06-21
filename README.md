@@ -1,6 +1,6 @@
 # OpenCart 3.x Sanal POS Entegrasyonu 
 
-Aldığınız hataları http://www.karesoft.com.tr/opencart-3-x-sanalpos-entegrasyonu-ucretsiz bu başlık altında bildirebilirsiniz.
+Aldığınız hataları https://www.iova.co.uk/opencart-3-x-sanalpos-entegrasyonu-ucretsiz bu başlık altında bildirebilirsiniz.
 
 Veritabanında olması gereken tablo , normal kurulumda gelmez ise bunu phpmyadminden okutabilisiniz. Table Prefix kısmına dikkat edelim "oc_"
 ```
@@ -25,5 +25,5 @@ Payu
 İ-Para  
 # Information
 Author : Agit ISIK  
-E-mail : agit@karesoft.com.tr  
-Web    : www.karesoft.com.tr  
+E-mail : agit@iova.co.uk
+Web    : www.iova.co.uk
